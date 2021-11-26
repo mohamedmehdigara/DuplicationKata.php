@@ -1,6 +1,9 @@
 <?php
 
-
+class Song{
+  function asong(){
+  echo "Song";}
+}
 class Lesson1Straight extends Song
 {
   public function singCatSong()
@@ -18,4 +21,5 @@ class Lesson1Straight extends Song
     $this->sing("We thought he was a goner");
     $this->sing("But the cat came back, he just wouldn't go away");
   }
+  
 }
